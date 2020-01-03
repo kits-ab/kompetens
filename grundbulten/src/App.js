@@ -42,7 +42,8 @@ const competence = {
     "Bash",
     "Presentationsteknik",
     "Eventual Consistency",
-    "Kravhantering"
+    "Kravhantering",
+    "Functional Programming"
   ],
   grund1: [
     "IDE (IntelliJ, VS Code eller liknande)",
@@ -129,12 +130,12 @@ function App() {
           </h4>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr" }}>
             <ul>
-              {competence.grund2.slice(0, 5).map(item => (
+              {competence.grund2.slice(0, 6).map(item => (
                 <li>{item}</li>
               ))}
             </ul>
             <ul>
-              {competence.grund2.slice(5, 10).map(item => (
+              {competence.grund2.slice(6, 12).map(item => (
                 <li>{item}</li>
               ))}
             </ul>
@@ -152,12 +153,12 @@ function App() {
           </h4>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr" }}>
             <ul>
-              {competence.grund1.slice(0, 5).map(item => (
+              {competence.grund1.slice(0, 6).map(item => (
                 <li>{item}</li>
               ))}
             </ul>
             <ul>
-              {competence.grund1.slice(5, 10).map(item => (
+              {competence.grund1.slice(6, 12).map(item => (
                 <li>{item}</li>
               ))}
             </ul>
