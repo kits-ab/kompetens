@@ -17,13 +17,23 @@ import {
 } from "@kokitotsos/react-components";
 
 const competence = {
-  frontend: ["React / Vue / Angular", "npm", "JAM Stack", "HTML", "CSS"],
+  frontend: [
+    "Frameworks",
+    "npm",
+    "JAM Stack",
+    "HTML",
+    "CSS",
+    "Microfrontends",
+    "End-to-end testing"
+  ],
   cloud: [
     "Cloud-certifiering",
     "Skalning",
     "Swagger",
     "Lastbalansering",
-    "Parallellism"
+    "Parallellism",
+    "Infrastructure as code",
+    "Serverless"
   ],
   security: [
     "OWASP Top 10",
@@ -35,7 +45,6 @@ const competence = {
   grund2: [
     "CI / CD Pipelines",
     "Event Sourcing",
-    "Serverless",
     "Kubernetes",
     "SOLID",
     "AWS / Azure / GCP",
@@ -43,7 +52,8 @@ const competence = {
     "Presentationsteknik",
     "Eventual Consistency",
     "Kravhantering",
-    "Functional Programming"
+    "Functional Programming",
+    "Test Driven Development"
   ],
   grund1: [
     "IDE (IntelliJ, VS Code eller liknande)",
@@ -79,7 +89,7 @@ function App() {
       </Lead>
       <Vertical>
         <Horizontal
-          style={{ height: "200px", justifyContent: "space-between" }}
+          style={{ height: "240px", justifyContent: "space-between" }}
         >
           <Offer
             icon={<CoffeeIcon />}
